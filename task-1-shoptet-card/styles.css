@@ -1,0 +1,48 @@
+.product-card {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  padding: 12px;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-image-wrap {
+  position: relative;
+  display: block;
+}
+
+.badge-new {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  background: #22a447;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 4px 8px;
+  z-index: 2;
+}
+
+.shipping-note {
+  margin: 6px 0 10px;
+  font-size: 13px;
+  color: #2d2d2d;
+}
+
+/* Tlacidlo sa zobrazi az pri hover na kartu */
+.btn-add-to-cart {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: all 0.2s ease;
+}
+
+.product-card:hover .btn-add-to-cart {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
