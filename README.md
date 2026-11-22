@@ -1,14 +1,15 @@
-# Cvičné zadanie - Developer (Gaelta)
+# Developer Assignment
 
-Tento repozitar obsahuje vypracovanie uloh 1-5:
+Solutions for a practical developer assignment covering HTML, CSS, JavaScript, webhooks and platform configuration.
 
-- `task-1-shoptet-card/` - uprava produktovej karty (HTML/CSS/JS)
-- `task-2-webhook-sheets/` - popis integracie + ukazka webhook endpointu
-- `task-3-debug-js/` - oprava chyb v JavaScript kode
-- `task-4-answers.md` - kratke odpovede na otazky
-- `task-5-platform-notes.md` - platformove postupy pre zlavy v kosiku
+## Tasks
 
-## Poznamky
+| Task | Description |
+| --- | --- |
+| [Task 1](task-1-shoptet-card/) | Product card implementation for a Shoptet template |
+| [Task 2](task-2-webhook-sheets/) | Webhook integration and Google Sheets data flow |
+| [Task 3](task-3-debug-js/) | JavaScript debugging with before-and-after examples |
+| [Task 4](task-4-answers.md) | Answers to technical questions |
+| [Task 5](task-5-platform-notes.md) | Notes on discounts and platform behavior |
 
-- Kody su pripravene ako izolovane ukazky.
-- Pri Shoptete su uvedene aj miesta v administracii, kam kod vlozit.
+The task folders contain isolated examples and can be reviewed independently.
